@@ -1,5 +1,5 @@
 function Team() {
-    return ( <div>team</div> );
+    return ( <div></div> );
 }
 
 export default Team;

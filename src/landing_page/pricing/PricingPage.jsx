@@ -1,5 +1,9 @@
-function Pricing() {
-    return (  <div></div>);
+import Hero from "./Hero"
+
+function PricingPage() {
+    return (  <>
+        <Hero/>
+    </>);
 }
 
-export default Pricing;
+export default PricingPage;

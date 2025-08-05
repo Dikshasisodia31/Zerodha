@@ -12,14 +12,14 @@ import Pricing from "./Pricing";
 function HomePage() {
     return ( 
         <>
-          <Navbar/>
+        
           <Hero/>
           <Awards/>
           <Stats/>
           <Pricing/>
           <Education/>
           <Open/>
-          <Footer/>
+        
         </>
      );
 }
