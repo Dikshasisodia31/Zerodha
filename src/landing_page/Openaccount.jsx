@@ -1,10 +1,16 @@
 import React from "react";
+import Button from '@mui/material/Button';
 
 function Open() {
     return ( 
-        <>
-        <h1>Open</h1>
-        </>
+         <div className="container">
+           <div className="row">
+             <h1 className="heading mt-5">Open a Zerodha account</h1>
+             <p>Modern platforms and apps , Rs 0 investments , and flat Rs.20 intraday and F&O trades</p>
+             <Button variant="contained" className="btn">Signup now</Button>
+           </div>
+    
+       </div>
      );
 }
 
