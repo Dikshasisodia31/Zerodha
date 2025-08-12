@@ -4,7 +4,7 @@ import '../index.css'
 import { Link } from "react-router-dom";
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary ">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div className="container-fluid p-2" >
         <a className="navbar-brand" href="#">
           <img src={logo} style={{ height: "20px" }} />
@@ -13,7 +13,7 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto mb-2 p-20px mb-lg-0">
+          <ul className="navbar-nav ms-auto mb-2 p-30px mb-lg-0">
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="/signup">Signup</Link>
             </li>
