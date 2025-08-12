@@ -1,0 +1,9 @@
+.row{
+    display: flex;
+    justify-content: center;
+    padding : 30px;
+    text-align: center;
+}
+.btn{
+    width : 20%;
+}
