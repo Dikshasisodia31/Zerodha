@@ -66,3 +66,31 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+.topbar-container{
+  display: flex;
+  align-items: center;
+  
+}
+
+.top-container{
+  
+  display: flex;
+  gap: 20px;
+
+}
+
+.sensex{
+  display: flex;
+  gap: 20px;
+  }
+  .user-container{
+  height : 200px;
+}
+.equity-container{
+  height : 200px;
+}
+.menu-bar{
+  display: flex;
+  gap : 15px;
+ 
+}
