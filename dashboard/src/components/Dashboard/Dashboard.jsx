@@ -5,12 +5,14 @@ import Orders from "../Orders/Orders";
 import Holdings from "../Holdings/Holdings";
 import Positions from "../Positions/Positions";
 import Funds from "../Funds/Funds";
+import WatchList from "../Watchlist/Watchlist";
 import Apps from "../Apps/Apps";
 
 function Dashboard() {
     return ( 
-    <div>
-        <div className="dashboard-bar">
+        <div className="dashboard-container">
+            <WatchList/>
+            <div className="content">
             <Routes>
                 <Route path='/' element={<Summary/>}/>
                 <Route path='/Orders' element={<Orders/>}/>
@@ -19,8 +21,8 @@ function Dashboard() {
                 <Route path='/Funds' element={<Funds/>}/>
                 <Route path='/Apps' element={<Apps/>}/>
             </Routes>
+            </div>
         </div>
-    </div> 
   );
 }
 
