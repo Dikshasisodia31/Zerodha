@@ -3,10 +3,9 @@ import express from "express";
 import mongoose from "mongoose";
 import bodyParser from "body-parser";
 import cors from "cors";
-// import Holding from './models/HoldingsModel';
+
 
 import Holding  from "./models/HoldingsModel.js";
-// import { Order } from "./models/OrdersModel.js";
 import Position  from "./models/PositionsModel.js";
 
 const PORT = process.env.PORT || 3002;
