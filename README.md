@@ -11,5 +11,12 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project. -->
 **ONLINE PLATFORM FOR STOCK TRADING**
-A fully functional front-end clone of the Zerodha trading platform using React(State management,Props,Routing).
-Implement responsive UI design with CSs,Bootstrap and Material UI.
+Zerodha Clone(Personal project/Learning project)
+A full-stack clone of the Zerodha trading platform featuring a modern frontend dashboard and a robust backend API. This project demonstrates end-to-end development of a real-world financial application.
+
+Tech Stack used :-
+  Frontend -> React.js,Javascript,CSS,HTML
+  Backend -> Node.js,Express.js.
+  Database -> MongoDB
+  Libraries -> Material UI 
+  
