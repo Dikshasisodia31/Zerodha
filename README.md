@@ -14,9 +14,38 @@ If you are developing a production application, we recommend using TypeScript wi
 Zerodha Clone(Personal project/Learning project)
 A full-stack clone of the Zerodha trading platform featuring a modern frontend dashboard and a robust backend API. This project demonstrates end-to-end development of a real-world financial application.
 
-Tech Stack used :-
-  Frontend -> React.js,Javascript,CSS,HTML
-  Backend -> Node.js,Express.js.
-  Database -> MongoDB
-  Libraries -> Material UI 
+Tech Stack used 💻
+
+Frontend
+React
+CSS / Material UI
+Axios / Fetch API
+
+Backend
+Node.js
+Express.js
+REST APIs
+
+Database
+MongoDB
+
+Other Tools
+🔒Secured Authentication.
+
+🧩 Folder Structure
+Frontend/
+  ├── components/
+  ├── pages/
+  
+Dashboard/
+  | Dashboard/
+  | Holdings
+  | Positions
+server/
+  ├── controllers/
+  ├── routes/
+  └── models/
+
+  🚧 Deployment Status
+   Deployment is currently in progress.
   
